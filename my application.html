@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApplicationForm</title>
+</head>
+<body>
+    <h3>Application Form</h3>
+    <form>
+        <Fieldset>
+            <legend>PersonalsDetais</legend>
+            <br>
+            <div>
+            <label for="name">Firstname</label>
+            <input type="text" id="name" placeholder="FIRST NAME" name="text" required >
+             </div>
+             <br>
+            <div>
+                <label for="middle">Middlename</label>
+                <input type="text" id="middle" placeholder="MIDDLE NANE"/>
+                </div>
+                <br>
+            <div>
+                <label for="last">Lastname</label>
+                <input type="text" id="last" placeholder="LAST NAME"/>
+            </div>
+            <br>
+            <div>
+                <labbel>Course</labbel>
+                <select>
+                    <option disabled selected>SELECT COURSE</option>
+                    <option>JAVA</option>
+                    <option>DATA SCIENCE</option>
+                    <OPTION>WEB DEVELOPER</OPTION>
+                    <option>CYBER SECURITY</option>
+                    <OPTION>A.I</OPTION>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="gen">Gender:</label><br>
+                <input type="radio" name="gen" id="gen">Male<br>
+                <input type="radio" name="gen" id="gen">Female<br>
+                <input type="radio" name="gen" id="gen">Other
+            </div>
+            <br>
+            <div>
+                <label for="date">DOB</label>
+                <input type="datetime-local" name="date" id="date required">
+            </div>
+            <br/>
+            <div>
+                <label for="num">Phone no</label>
+                <input type="text" id="num" value="+91"disabled size="1"/>
+                <input type="text"  placeholder="ENTER YOUR NUMBER">
+            </div>
+            <br>
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" placeholder="ENTER YOUR VALID EMAIL" required />
+            </div>
+            <br>
+            <div>
+                <label for="file">Choose file</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <br>
+            <div>
+                <label>Choosecolor</label>
+                <input type="color"/>
+            </div>
+            <br>
+            <div>
+                <div>
+                <button type="submit">Submit</button>
+                <button type="Reset">Reset</button>
+            </div>
+
+
+        </Fieldset>
+        
+    </form>
+    
+</body>
+</html>
